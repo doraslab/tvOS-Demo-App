@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3290A11BFBE9E2002725A0 /* ALDemoAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3290A01BFBE9E2002725A0 /* ALDemoAppDelegate.swift */; };
+		1D3290BB1BFBEA60002725A0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3290B41BFBEA60002725A0 /* AdSupport.framework */; };
+		1D3290BC1BFBEA60002725A0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3290B51BFBEA60002725A0 /* AVFoundation.framework */; };
+		1D3290BD1BFBEA60002725A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3290B61BFBEA60002725A0 /* CoreGraphics.framework */; };
+		1D3290BE1BFBEA60002725A0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3290B71BFBEA60002725A0 /* CoreMedia.framework */; };
+		1D3290BF1BFBEA60002725A0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3290B81BFBEA60002725A0 /* StoreKit.framework */; };
+		1D3290C01BFBEA60002725A0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3290B91BFBEA60002725A0 /* SystemConfiguration.framework */; };
+		1D3290C11BFBEA60002725A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3290BA1BFBEA60002725A0 /* UIKit.framework */; };
+		1D3290C81BFBEA7E002725A0 /* ALDemoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3290C51BFBEA7E002725A0 /* ALDemoBaseViewController.m */; };
+		1D3290C91BFBEA7E002725A0 /* ALDemoRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3290C71BFBEA7E002725A0 /* ALDemoRootViewController.m */; };
+		1D3290CB1BFBEA9B002725A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3290CA1BFBEA9B002725A0 /* Main.storyboard */; };
+		1D3290F11BFBEB7C002725A0 /* ALDemoInterstitialSingleInstanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3290EE1BFBEB7C002725A0 /* ALDemoInterstitialSingleInstanceViewController.swift */; };
+		1D3290F21BFBEB7C002725A0 /* ALDemoInterstitialSharerdInstanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3290EF1BFBEB7C002725A0 /* ALDemoInterstitialSharerdInstanceViewController.swift */; };
+		1D3290F31BFBEB7C002725A0 /* ALDemoInterstitialManualLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3290F01BFBEB7C002725A0 /* ALDemoInterstitialManualLoadingViewController.swift */; };
+		1D3290F51BFBEDE5002725A0 /* ALDemoRewardedVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3290F41BFBEDE5002725A0 /* ALDemoRewardedVideosViewController.swift */; };
+		1D3290F71BFBF362002725A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3290F61BFBF362002725A0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D32909D1BFBE9E2002725A0 /* tvOS-SDK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvOS-SDK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3290A01BFBE9E2002725A0 /* ALDemoAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALDemoAppDelegate.swift; sourceTree = "<group>"; };
+		1D3290A91BFBE9E2002725A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3290B41BFBEA60002725A0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1D3290B51BFBEA60002725A0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1D3290B61BFBEA60002725A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D3290B71BFBEA60002725A0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1D3290B81BFBEA60002725A0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1D3290B91BFBEA60002725A0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1D3290BA1BFBEA60002725A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D3290C21BFBEA7E002725A0 /* tvOS-SDK-Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tvOS-SDK-Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		1D3290C31BFBEA7E002725A0 /* ALDebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDebugLog.h; sourceTree = "<group>"; };
+		1D3290C41BFBEA7E002725A0 /* ALDemoBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDemoBaseViewController.h; sourceTree = "<group>"; };
+		1D3290C51BFBEA7E002725A0 /* ALDemoBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDemoBaseViewController.m; sourceTree = "<group>"; };
+		1D3290C61BFBEA7E002725A0 /* ALDemoRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDemoRootViewController.h; sourceTree = "<group>"; };
+		1D3290C71BFBEA7E002725A0 /* ALDemoRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDemoRootViewController.m; sourceTree = "<group>"; };
+		1D3290CA1BFBEA9B002725A0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1D3290EE1BFBEB7C002725A0 /* ALDemoInterstitialSingleInstanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALDemoInterstitialSingleInstanceViewController.swift; sourceTree = "<group>"; };
+		1D3290EF1BFBEB7C002725A0 /* ALDemoInterstitialSharerdInstanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALDemoInterstitialSharerdInstanceViewController.swift; sourceTree = "<group>"; };
+		1D3290F01BFBEB7C002725A0 /* ALDemoInterstitialManualLoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALDemoInterstitialManualLoadingViewController.swift; sourceTree = "<group>"; };
+		1D3290F41BFBEDE5002725A0 /* ALDemoRewardedVideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALDemoRewardedVideosViewController.swift; sourceTree = "<group>"; };
+		1D3290F61BFBF362002725A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D32909A1BFBE9E2002725A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3290BB1BFBEA60002725A0 /* AdSupport.framework in Frameworks */,
+				1D3290BC1BFBEA60002725A0 /* AVFoundation.framework in Frameworks */,
+				1D3290BD1BFBEA60002725A0 /* CoreGraphics.framework in Frameworks */,
+				1D3290BE1BFBEA60002725A0 /* CoreMedia.framework in Frameworks */,
+				1D3290BF1BFBEA60002725A0 /* StoreKit.framework in Frameworks */,
+				1D3290C01BFBEA60002725A0 /* SystemConfiguration.framework in Frameworks */,
+				1D3290C11BFBEA60002725A0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D3290941BFBE9E2002725A0 = {
+			isa = PBXGroup;
+			children = (
+				1D32909F1BFBE9E2002725A0 /* tvOS-SDK-Demo */,
+				1D3290B31BFBEA47002725A0 /* Frameworks */,
+				1D32909E1BFBE9E2002725A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D32909E1BFBE9E2002725A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D32909D1BFBE9E2002725A0 /* tvOS-SDK-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D32909F1BFBE9E2002725A0 /* tvOS-SDK-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1D3290AF1BFBEA28002725A0 /* PUT SDK HERE */,
+				1D3290B01BFBEA33002725A0 /* SDK Integration Examples */,
+				1D3290B11BFBEA3A002725A0 /* Components */,
+				1D3290B21BFBEA3F002725A0 /* Supporting Files */,
+			);
+			path = "tvOS-SDK-Demo";
+			sourceTree = "<group>";
+		};
+		1D3290AF1BFBEA28002725A0 /* PUT SDK HERE */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "PUT SDK HERE";
+			sourceTree = "<group>";
+		};
+		1D3290B01BFBEA33002725A0 /* SDK Integration Examples */ = {
+			isa = PBXGroup;
+			children = (
+				1D3290E91BFBEABA002725A0 /* Interstitials */,
+				1D3290EA1BFBEAC0002725A0 /* Rewarded/Incentivized Videos */,
+			);
+			name = "SDK Integration Examples";
+			sourceTree = "<group>";
+		};
+		1D3290B11BFBEA3A002725A0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1D3290C31BFBEA7E002725A0 /* ALDebugLog.h */,
+				1D3290A01BFBE9E2002725A0 /* ALDemoAppDelegate.swift */,
+				1D3290C41BFBEA7E002725A0 /* ALDemoBaseViewController.h */,
+				1D3290C51BFBEA7E002725A0 /* ALDemoBaseViewController.m */,
+				1D3290C61BFBEA7E002725A0 /* ALDemoRootViewController.h */,
+				1D3290C71BFBEA7E002725A0 /* ALDemoRootViewController.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		1D3290B21BFBEA3F002725A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D3290F61BFBF362002725A0 /* Assets.xcassets */,
+				1D3290CA1BFBEA9B002725A0 /* Main.storyboard */,
+				1D3290A91BFBE9E2002725A0 /* Info.plist */,
+				1D3290C21BFBEA7E002725A0 /* tvOS-SDK-Demo-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D3290B31BFBEA47002725A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D3290B41BFBEA60002725A0 /* AdSupport.framework */,
+				1D3290B51BFBEA60002725A0 /* AVFoundation.framework */,
+				1D3290B61BFBEA60002725A0 /* CoreGraphics.framework */,
+				1D3290B71BFBEA60002725A0 /* CoreMedia.framework */,
+				1D3290B81BFBEA60002725A0 /* StoreKit.framework */,
+				1D3290B91BFBEA60002725A0 /* SystemConfiguration.framework */,
+				1D3290BA1BFBEA60002725A0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D3290E91BFBEABA002725A0 /* Interstitials */ = {
+			isa = PBXGroup;
+			children = (
+				1D3290EB1BFBEAF6002725A0 /* As a property */,
+				1D3290EC1BFBEAFB002725A0 /* With a shared instance */,
+				1D3290ED1BFBEB01002725A0 /* Manual loading */,
+			);
+			name = Interstitials;
+			sourceTree = "<group>";
+		};
+		1D3290EA1BFBEAC0002725A0 /* Rewarded/Incentivized Videos */ = {
+			isa = PBXGroup;
+			children = (
+				1D3290F41BFBEDE5002725A0 /* ALDemoRewardedVideosViewController.swift */,
+			);
+			name = "Rewarded/Incentivized Videos";
+			sourceTree = "<group>";
+		};
+		1D3290EB1BFBEAF6002725A0 /* As a property */ = {
+			isa = PBXGroup;
+			children = (
+				1D3290EE1BFBEB7C002725A0 /* ALDemoInterstitialSingleInstanceViewController.swift */,
+			);
+			name = "As a property";
+			sourceTree = "<group>";
+		};
+		1D3290EC1BFBEAFB002725A0 /* With a shared instance */ = {
+			isa = PBXGroup;
+			children = (
+				1D3290EF1BFBEB7C002725A0 /* ALDemoInterstitialSharerdInstanceViewController.swift */,
+			);
+			name = "With a shared instance";
+			sourceTree = "<group>";
+		};
+		1D3290ED1BFBEB01002725A0 /* Manual loading */ = {
+			isa = PBXGroup;
+			children = (
+				1D3290F01BFBEB7C002725A0 /* ALDemoInterstitialManualLoadingViewController.swift */,
+			);
+			name = "Manual loading";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D32909C1BFBE9E2002725A0 /* tvOS-SDK-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D3290AC1BFBE9E2002725A0 /* Build configuration list for PBXNativeTarget "tvOS-SDK-Demo" */;
+			buildPhases = (
+				1D3290991BFBE9E2002725A0 /* Sources */,
+				1D32909A1BFBE9E2002725A0 /* Frameworks */,
+				1D32909B1BFBE9E2002725A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tvOS-SDK-Demo";
+			productName = "tvOS-SDK-Demo";
+			productReference = 1D32909D1BFBE9E2002725A0 /* tvOS-SDK-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D3290951BFBE9E2002725A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AppLovin;
+				TargetAttributes = {
+					1D32909C1BFBE9E2002725A0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 1D3290981BFBE9E2002725A0 /* Build configuration list for PBXProject "tvOS-SDK-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D3290941BFBE9E2002725A0;
+			productRefGroup = 1D32909E1BFBE9E2002725A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D32909C1BFBE9E2002725A0 /* tvOS-SDK-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D32909B1BFBE9E2002725A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3290F71BFBF362002725A0 /* Assets.xcassets in Resources */,
+				1D3290CB1BFBEA9B002725A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D3290991BFBE9E2002725A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3290C81BFBEA7E002725A0 /* ALDemoBaseViewController.m in Sources */,
+				1D3290C91BFBEA7E002725A0 /* ALDemoRootViewController.m in Sources */,
+				1D3290F31BFBEB7C002725A0 /* ALDemoInterstitialManualLoadingViewController.swift in Sources */,
+				1D3290F51BFBEDE5002725A0 /* ALDemoRewardedVideosViewController.swift in Sources */,
+				1D3290F21BFBEB7C002725A0 /* ALDemoInterstitialSharerdInstanceViewController.swift in Sources */,
+				1D3290A11BFBE9E2002725A0 /* ALDemoAppDelegate.swift in Sources */,
+				1D3290F11BFBEB7C002725A0 /* ALDemoInterstitialSingleInstanceViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D3290AA1BFBE9E2002725A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		1D3290AB1BFBE9E2002725A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D3290AD1BFBE9E2002725A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "tvOS-SDK-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tvOS-SDK-Demo",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AppLovin.tvOS-SDK-Demo-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tvOS-SDK-Demo/tvOS-SDK-Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		1D3290AE1BFBE9E2002725A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "tvOS-SDK-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tvOS-SDK-Demo",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AppLovin.tvOS-SDK-Demo-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tvOS-SDK-Demo/tvOS-SDK-Demo-Bridging-Header.h";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D3290981BFBE9E2002725A0 /* Build configuration list for PBXProject "tvOS-SDK-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3290AA1BFBE9E2002725A0 /* Debug */,
+				1D3290AB1BFBE9E2002725A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D3290AC1BFBE9E2002725A0 /* Build configuration list for PBXNativeTarget "tvOS-SDK-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3290AD1BFBE9E2002725A0 /* Debug */,
+				1D3290AE1BFBE9E2002725A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D3290951BFBE9E2002725A0 /* Project object */;
+}
